@@ -80,7 +80,7 @@ export default function Home() {
             
             <div className="flex flex-col justify-center space-y-6">
               <h2 className="text-4xl font-bold tracking-tighter text-white leading-none ">Your Aesthetic, <br/> Amplified.</h2>
-              <p className="text-slate-400 text-sm leading-relaxed font-medium">Upload an image, get a recommendation.<br/>It's that simple.</p>
+              <p className="text-slate-400 text-sm leading-relaxed font-medium">Upload an image, get a music recommendation.<br/>It's that simple.</p>
               {!preview && <div className="w-12 h-12 rounded-full border border-cyan-500/30 flex items-center justify-center animate-bounce shadow-[0_0_15px_rgba(6,182,212,0.5)]">
                 <div className="w-2 h-2 bg-cyan-500 rounded-full" />
               </div>}
