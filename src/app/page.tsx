@@ -93,7 +93,7 @@ export default function Home() {
             <div className="relative w-48 h-[1px] bg-white/5 rounded-full overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400 to-transparent animate-[loading_2s_infinite] shadow-[0_0_15px_cyan]" />
             </div>
-            <p className="text-[10px] font-black tracking-[0.4em] text-cyan-400 uppercase italic">Distilling Fragments...</p>
+            <p className="text-[10px] font-black tracking-[0.4em] text-cyan-400 uppercase italic">Cooking...</p>
           </div>
         )}
 
