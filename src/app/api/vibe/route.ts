@@ -21,8 +21,7 @@ export async function POST(req: Request) {
         "compliment": "A short aesthetic compliment", 
         "tip": "A photography improvement tip", 
         "rating": [Provide a dynamic integer between 1 and 10 based ONLY on this specific image quality] 
-      }
-      CRITICAL: The "rating" must be a dynamic integer between 1 and 10. Output ONLY raw JSON.`,
+        CRITICAL: The "rating" must be a dynamic integer between 1 and 10. Output ONLY raw JSON.`,
     });
 
     const result = await model.generateContent([
@@ -38,4 +37,4 @@ export async function POST(req: Request) {
   } catch (error: any) {
     return NextResponse.json({ error: "Distillation Failed" }, { status: 500 });
   }
-}
+  
