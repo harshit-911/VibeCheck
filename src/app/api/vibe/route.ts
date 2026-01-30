@@ -11,7 +11,8 @@ export async function POST(req: Request) {
 
     const model = genAI.getGenerativeModel({ 
       model: "gemini-2.5-flash", 
-      systemInstruction: `You are the VIBE CHECK Creative Lead. 
+      systemInstruction: `You are the VIBE CHECK Creative Lead, your job is to find perfect song that matches the uploaded image. 
+      Try to give best song results or trendy songs.
       Analyze the photo's aesthetic, lighting, and composition.
       Provide a JSON response: 
       { 
