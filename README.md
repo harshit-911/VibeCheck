@@ -1,4 +1,4 @@
-# ⚡️ VIBE CHECK OS
+# ⚡️ VIBE CHECK Tool
 
 **VIBE CHECK** is a high-end, "Liquid Glass" themed web application that uses Artificial Intelligence to synthesize the perfect musical anthem for any visual moment. Built for the 2026 aesthetic, it bridges the gap between photography and sound.
 
