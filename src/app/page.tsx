@@ -80,7 +80,7 @@ export default function Home() {
             
             <div className="flex flex-col justify-center space-y-6">
               <h2 className="text-4xl font-bold tracking-tighter text-white leading-none ">Your Aesthetic, <br/> Amplified.</h2>
-              <p className="text-slate-400 text-sm leading-relaxed font-medium">Upload an image, get a music recommendation.<br/>It's that simple.</p>
+              <p className="text-slate-400 text-sm leading-relaxed font-medium">Upload an image, get a recommendation.<br/>It's that simple.</p>
               {!preview && <div className="w-12 h-12 rounded-full border border-cyan-500/30 flex items-center justify-center animate-bounce shadow-[0_0_15px_rgba(6,182,212,0.5)]">
                 <div className="w-2 h-2 bg-cyan-500 rounded-full" />
               </div>}
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="relative w-48 h-[1px] bg-white/5 rounded-full overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400 to-transparent animate-[loading_2s_infinite] shadow-[0_0_15px_cyan]" />
             </div>
-            <p className="text-[10px] font-black tracking-[0.4em] text-cyan-400 uppercase italic">Cooking...</p>
+            <p className="text-[10px] font-black tracking-[0.4em] text-cyan-400 uppercase italic">Distilling Fragments...</p>
           </div>
         )}
 
